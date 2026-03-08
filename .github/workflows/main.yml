@@ -91,7 +91,7 @@ jobs:
           # Для каждого пересобранного образа 
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
-          tags: asoolive0/taski_backend:latest
+          tags: asollive0/taski_backend:latest
 
 
   frontend_tests:
