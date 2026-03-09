@@ -15,7 +15,7 @@ services:
     image: asollive0/taski_backend # Качаем с Docker Hub
     env_file: .env
     volumes:
-      - static_volume:/ba ckend_static
+      - static_volume:/backend_static
   frontend:
     image: asollive0/taski_frontend  # Качаем с Docker Hub
     env_file: .env
